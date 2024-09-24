@@ -63,14 +63,14 @@ app.post('/send-email', (req, res) => {
     port: 465,
     secure: true,
     auth: {
-      user: "your_username",
-      pass: "pass",
+      user: "exonity0@gmail.com",
+      pass: "aiwv twmo sykg uvim",
     },
   });
 
   const mailOptions = {
-    from: "your_gmail_smtp",
-    to: 'your_gmail@gmail.com',
+    from: "exonity0@gmail.com",
+    to: 'exonity0@gmail.com',
     subject: `Message from ${name}`,
     text: message,
     replyTo: email,
